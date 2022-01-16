@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*css variables*/
+@import url(partials/_variables.css);
+
+/*global css*/
+@import url(partials/_global.css);
+
+/*start navigation*/
+.header-area .main-menu .navbar .navbar-brand {
+padding: 0 5rem 0 0;
+}
+.header-area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+.header-area .main-menu .nav-item .nav-link {
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--title-color);
+  padding: 1.7rem;
+}
+
+.header-area .main-menu .navbar-nav .active a{
+ background: var(--gradient-color);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color:transparent;
+ background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+ background: var(--gradient-color);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color:transparent;
+ background-clip: text;
+}
+/*end navigation*/
+
+
+/*banner area*/
+
+
+.site-main .site-banner .site-title h3 {
+  padding-top: 35%;
+  font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1 {
+  font-size: 4.3rem;
+}
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img {
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+
+/*end banner area*/
+
+
+/*about area*/
+
+.about-area{
+  padding: 8rem 5rem;
+}
+.site-main .about-area .about-title h2 > span{
+  display: block;
+  font: normal bold 49px/ 60px var(--roboto);
+  letter-spacing: 21px;
+}
+.site-main .about-area .about-title .paragraph > p{
+  padding: .4rem 0;
+}
+/*end about area*/
+
+
+
+/*footer bar*/
+
+.footer-bar {
+  font-size: 25px;
+}
+.footer-area {
+  padding: 5rem 0;
+}
+.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: #454545;
+}
